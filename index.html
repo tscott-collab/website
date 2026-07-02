@@ -96,70 +96,20 @@
 
   <section class="collection" id="collection">
     <div class="wrap">
-      <p class="eyebrow reveal center">The Collection</p>
-      <h2 class="reveal center">Five places. Five candles.</h2>
-      <p class="section-lede reveal center">Each fragrance is named for the moment that inspired it&mdash;nothing more, nothing manufactured.</p>
+      <p class="eyebrow reveal center">Shop</p>
+      <h2 class="reveal center">The full collection.</h2>
+      <p class="section-lede reveal center">Candles, wax melts, and small-batch body care&mdash;every scent named for the place that inspired it.</p>
 
-      <div class="product-grid">
+      <div class="filter-tabs reveal center" id="filter-tabs" role="tablist" aria-label="Filter products by category"></div>
 
-        <article class="product-card reveal">
-          <div class="product-swatch swatch-1" aria-hidden="true">
-            <svg viewBox="0 0 200 200"><path d="M0 140 Q50 100 100 130 T200 110" stroke="#F3EEE3" stroke-width="4" fill="none" opacity="0.8"/><path d="M0 160 Q60 130 110 155 T200 140" stroke="#F3EEE3" stroke-width="3" fill="none" opacity="0.5"/></svg>
-          </div>
-          <h3>After the Rain</h3>
-          <p class="product-note">forest &middot; petrichor &middot; moss</p>
-          <p>The hush that settles over a forest once a storm has passed.</p>
-          <span class="product-price">$32</span>
-        </article>
+      <div class="product-grid" id="product-grid"></div>
 
-        <article class="product-card reveal">
-          <div class="product-swatch swatch-2" aria-hidden="true">
-            <svg viewBox="0 0 200 200"><path d="M20 40 L20 170" stroke="#F3EEE3" stroke-width="5"/><path d="M20 60 L180 60" stroke="#F3EEE3" stroke-width="5"/><path d="M20 100 L160 100" stroke="#F3EEE3" stroke-width="4" opacity="0.7"/><path d="M20 140 L140 140" stroke="#F3EEE3" stroke-width="3" opacity="0.5"/></svg>
-          </div>
-          <h3>Weathered Dock</h3>
-          <p class="product-note">driftwood &middot; salt air &middot; cedar</p>
-          <p>Sun-bleached planks, lake water, and the wood that remembers both.</p>
-          <span class="product-price">$32</span>
-        </article>
+      <p class="product-empty" id="product-empty" hidden>Nothing in this category yet&mdash;check back soon.</p>
 
-        <article class="product-card reveal">
-          <div class="product-swatch swatch-3" aria-hidden="true">
-            <svg viewBox="0 0 200 200"><circle cx="60" cy="80" r="16" fill="none" stroke="#F3EEE3" stroke-width="4" opacity="0.8"/><circle cx="120" cy="60" r="12" fill="none" stroke="#F3EEE3" stroke-width="3" opacity="0.6"/><circle cx="140" cy="120" r="18" fill="none" stroke="#F3EEE3" stroke-width="4" opacity="0.7"/><path d="M30 170 Q100 140 180 165" stroke="#F3EEE3" stroke-width="3" fill="none" opacity="0.5"/></svg>
-          </div>
-          <h3>Overgrown Orchard</h3>
-          <p class="product-note">ripe apple &middot; wild grass &middot; sunlight</p>
-          <p>Fruit left to fall where it may, and the green that grows around it.</p>
-          <span class="product-price">$32</span>
-        </article>
-
-        <article class="product-card reveal">
-          <div class="product-swatch swatch-4" aria-hidden="true">
-            <svg viewBox="0 0 200 200"><path d="M10 100 Q60 80 100 105 T190 95" stroke="#F3EEE3" stroke-width="4" fill="none" opacity="0.8"/><path d="M10 120 Q60 105 105 125 T190 115" stroke="#F3EEE3" stroke-width="3" fill="none" opacity="0.5"/><path d="M10 140 Q60 130 105 145 T190 135" stroke="#F3EEE3" stroke-width="2" fill="none" opacity="0.35"/></svg>
-          </div>
-          <h3>Turned Earth</h3>
-          <p class="product-note">dark soil &middot; root vegetable &middot; rain-warmed stone</p>
-          <p>The smell of ground broken open at the start of the growing season.</p>
-          <span class="product-price">$32</span>
-        </article>
-
-        <article class="product-card reveal">
-          <div class="product-swatch swatch-5" aria-hidden="true">
-            <svg viewBox="0 0 200 200"><circle cx="100" cy="60" r="30" fill="none" stroke="#F3EEE3" stroke-width="4" opacity="0.85"/><path d="M100 30 L100 15" stroke="#F3EEE3" stroke-width="3" opacity="0.6"/><path d="M100 130 Q100 100 130 100 Q160 100 160 130 L160 160 L40 160 L40 130 Q40 100 70 100 Q100 100 100 130 Z" fill="none" stroke="#F3EEE3" stroke-width="3" opacity="0.7"/></svg>
-          </div>
-          <h3>Before Sunrise</h3>
-          <p class="product-note">warm bread &middot; brown butter &middot; vanilla</p>
-          <p>An old bakery, lights on, hours before the town wakes up.</p>
-          <span class="product-price">$32</span>
-        </article>
-
-        <article class="product-card product-card-cta reveal">
-          <div class="cta-inner">
-            <h3>New places, coming soon.</h3>
-            <p>We&rsquo;re always chasing the next moment worth capturing.</p>
-            <a href="#contact" class="btn btn-ghost btn-light">Get notified</a>
-          </div>
-        </article>
-
+      <div class="collection-cta reveal">
+        <h3>New places, coming soon.</h3>
+        <p>We&rsquo;re always chasing the next moment worth capturing.</p>
+        <a href="#contact" class="btn btn-ghost btn-light">Get notified</a>
       </div>
     </div>
   </section>
@@ -257,6 +207,7 @@
   </div>
 </footer>
 
+<script src="js/products.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
